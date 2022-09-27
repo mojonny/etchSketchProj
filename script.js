@@ -15,16 +15,16 @@ for (let i=0; i<boxes.length; i++) {
         }
     }
     
-    var newHtmlE="";
+    
 function newGrid (){
     numBoxes = parseInt(prompt ("Pick a number between 1 and 100")); 
-
+    var newHtmlE="";
     for (i=0; i<numBoxes*numBoxes; i++) { 
         newHtmlE += '<div class="box2"></div>';
         var container2 = document.getElementById("container2");
         container2.innerHTML = newHtmlE;
     }
-    let gridTemplateColumns = 'repeat('+numBoxes+', 5vw)';
+    let gridTemplateColumns = 'repeat('+numBoxes+', 1fr)';
         container2.style.gridTemplateColumns = gridTemplateColumns;
         container2.style.gridTemplateRows = gridTemplateColumns;
         
