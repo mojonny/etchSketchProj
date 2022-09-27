@@ -4,35 +4,23 @@
     align-items: center;
 }
  
-.box, .box2 {
+.box {
     background-color: grey;
     border: solid 0.05rem black;
 }
 
 .colorIn {
-    background-color: blue;
-}
+    background-color: lightblue;
+    }
 
 #container {
     display: grid;
-    width: 900px;
-    height: 900px;
-    max-width: 900px;
-    max-height: 900px;
+    width: 500px;
+    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     grid-template-columns: repeat(16,1fr);
     grid-template-rows: repeat(16,1fr);
-}
-
-#container2 {
-    display: grid;
-    width: 900px;
-    height: 900px;
-    max-width: 900px;
-    max-height: 900px;
-    grid-template-columns: repeat();
-    grid-template-rows: repeat();
-    position: relative;
-    top: -900px;
 }
 
 #wrapper { 
