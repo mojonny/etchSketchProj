@@ -9,18 +9,24 @@
     
   </head>
   
-  <body>
+  <body onload="startGrid(256)">
     <main>
+      <button id="btn" onclick="newGrid()">Change Grid?</button>
+
       <div class="mainBox">
         <h1>Etch-A-Sketch!</h1>
         <p>Use the following grid to create your own 
           Etch-A-Sketch design!</p>
           <div id="wrapper">
-            <div id="container">
-            </div>
+            <div id="container"></div>
+            
           </div>    
           <p>Brought to you by Jonny Moir</p>
       </div>
+      <div id="wrapper2">
+        <div id="container2"></div>
+      </div>
+      
     </main>
     <script src="./script.js"></script>
   </body>
